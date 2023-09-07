@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: hacbs-test-project-zo1c
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-cgay-tenant/rhtap-demo-app/hacbs-test-project-zo1c@sha256:c5eb5052db70d8e086d296c2db1c1dff2c97bd1e30a2e1fb215167e7057c9f56
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
